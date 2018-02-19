@@ -1,0 +1,146 @@
+.imgindex {
+  width: 30%;
+}
+body{
+  background-image: url(https://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  font-family: 'Open Sans', sans-serif !important;
+}
+nav {
+  background-color: transparent;
+}
+html, body {
+  min-height: 100%;
+}
+.box-weather {
+  background-color: #264e61d0 !important;
+  height: 100vh;
+}
+.ico-weather {
+  width: 80%;
+  height: auto;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.title-splash {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 4rem;
+}
+#subtitleDown {
+  background-color: rgb(255, 196, 0);
+  position: absolute;
+  bottom: 0;
+  padding: 2rem;
+  margin-bottom: 0;
+  width: 100%;
+  font-size: 1.3rem;
+}
+p {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+.temperature {
+  margin: 0;
+  font-size: 3.3rem;
+}
+.title{
+  background-color: white;
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+}
+.weather {
+  background-color: darkturquoise;
+  color: white;
+  font-size: 16px;
+}
+.separation {
+  margin-bottom: 1rem;
+}
+
+/* actual */
+.nav-wrapper{
+  background-color: rgb(255, 196, 0);
+}
+.separationHr {
+  background-color: rgb(255, 196, 0);
+  height: 2px;
+  width: 100px;
+}
+.pronostico {
+  height: 3.5rem;
+  padding: 0;
+  width: 17rem;
+  line-height: 1.5rem;
+  color: #264e61;
+  margin-top: 3rem;
+}
+.borderBot{
+  border-bottom: 2px solid #80deea;
+  width: 60%;
+  margin-top: 2rem;
+}
+#week {
+  margin-top: 4rem;
+}
+
+.btnchat {
+  background-color: rgb(255, 196, 0);
+  position: absolute;
+  bottom: 7%;
+  right: 7%;
+}
+.marTop {
+  margin-top: 3rem;
+}
+.relative {
+  position: relative;
+}
+.mundo {
+  width: 75%;
+}
+.borderRight {
+  border-right: 2px solid rgb(255, 196, 0);
+}
+/* HOME */
+.marginTop {
+  margin-top: 0;
+}
+@media (min-width: 700px) {
+  .imgindex {
+    width: 150px;
+  }
+  .ico-weather {
+    width: 30%;
+  }
+  .marTop {
+    margin-top: 0;
+  }
+  .btnchat {
+    bottom: 3%;
+    right: 5%;
+  }
+  .marTop {
+    margin-top: 0;
+  }
+  .sinRow {
+    margin: 0;
+  }
+  .pronostico {
+    margin-top: 0;
+  }
+  #week {
+    margin-top: 0;
+  }
+}

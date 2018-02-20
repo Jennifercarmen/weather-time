@@ -1,0 +1,32 @@
+[debug] [2018-02-19T21:54:32.716Z] ----------------------------------------------------------------------
+[debug] [2018-02-19T21:54:32.728Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CompuMaster\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-19T21:54:32.730Z] CLI Version:   3.17.4
+[debug] [2018-02-19T21:54:32.730Z] Platform:      win32
+[debug] [2018-02-19T21:54:32.730Z] Node Version:  v8.9.4
+[debug] [2018-02-19T21:54:32.732Z] Time:          Mon Feb 19 2018 16:54:32 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-19T21:54:32.732Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-19T21:54:32.791Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-19T21:54:32.793Z] > authorizing via signed-in user
+[debug] [2018-02-19T21:54:32.800Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/weather-time-a1381  
+  
+ Mon Feb 19 2018 16:54:32 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-19T21:54:33.796Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-19T21:54:33.799Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/weather-time-a1381/tokens  
+  
+ Mon Feb 19 2018 16:54:33 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-19T21:54:34.585Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\CompuMaster\Documents\friendlychat-web\web'...
+[info] 
+[debug] [2018-02-19T21:54:34.595Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/weather-time-a1381  
+  
+ Mon Feb 19 2018 16:54:34 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-19T21:54:35.258Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-19T21:54:35.259Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/271870967284/clients/_:getWebAppConfig  
+  
+ Mon Feb 19 2018 16:54:35 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-19T21:54:36.171Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
